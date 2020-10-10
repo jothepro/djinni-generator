@@ -40,9 +40,8 @@ jobs:
       - uses: actions/download-artifact@v2
         with:
           name: djinni-generator
-          path: target/bin/djinni
+          path: target/bin
       - name: Restoring file permissions of artifact
         run: chmod u+x target/bin/djinni
-      - run: ls -al target/bin
       - name: Running integration-tests
         run: sbt it:test
