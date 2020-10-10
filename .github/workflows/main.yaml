@@ -30,8 +30,7 @@ jobs:
     steps:
       - uses: actions/download-artifact@v2
         with:
-          name: djinni-standalone
-          path: src/target/bin
+          name: djinni-generator
       - name: Restoring file permissions of artifact
         run: chmod u+x src/target/bin/djinni
       - name: Running integration-tests
