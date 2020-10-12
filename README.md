@@ -12,10 +12,6 @@ Parses an interface definition file and generates:
 - Java 8
 - sbt
 
-## Prerequisites
-
-Make sure to change to the `/src` directory in the repo for executing the following commands!
-
 ## Building
 
 To build once:

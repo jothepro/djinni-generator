@@ -13,6 +13,17 @@ class IntegrationTest extends FunSpec {
   final val OBJC = "objc"
   final val OBJCPP = "objcpp"
 
+  type Cpp = List[String]
+  def Cpp(params: String*) = List(params: _*)
+  type Java = List[String]
+  def Java(params: String*) = List(params: _*)
+  type Jni = List[String]
+  def Jni(params: String*) = List(params: _*)
+  type ObjC = List[String]
+  def ObjC(params: String*) = List(params: _*)
+  type ObjCpp = List[String]
+  def ObjCpp(params: String*) = List(params: _*)
+
   /**
     * Executes the djinni generator with the given idl-file as input
     * @param idl filename of the djinni-file (without file extension). The file must be located in the

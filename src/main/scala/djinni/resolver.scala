@@ -16,11 +16,7 @@
 
 package djinni
 
-import java.util
-
 import djinni.ast.Record.DerivingType
-import djinni.ast.Record.DerivingType.DerivingType
-import djinni.ast.Record.DerivingType.DerivingType
 import djinni.syntax._
 import djinni.ast._
 import djinni.meta._

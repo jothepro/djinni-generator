@@ -20,11 +20,9 @@ import djinni.ast.Record.DerivingType
 import djinni.ast._
 import djinni.generatorTools._
 import djinni.meta._
-import djinni.syntax.Error
 import djinni.writer.IndentWriter
 
 import scala.collection.mutable
-import scala.collection.parallel.immutable
 
 class ObjcGenerator(spec: Spec) extends BaseObjcGenerator(spec) {
 

@@ -19,8 +19,6 @@ package djinni
 import djinni.ast._
 import java.io._
 import djinni.generatorTools._
-import djinni.meta._
-import djinni.syntax.Error
 import djinni.writer.IndentWriter
 import scala.language.implicitConversions
 import scala.collection.mutable

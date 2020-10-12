@@ -26,7 +26,6 @@ import java.util.{Map => JMap}
 import org.yaml.snakeyaml.Yaml
 import scala.collection.JavaConversions._
 import scala.collection.mutable
-import scala.util.control.Breaks._
 import scala.util.parsing.combinator.RegexParsers
 import scala.util.parsing.input.{Position, Positional}
 

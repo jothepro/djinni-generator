@@ -16,7 +16,7 @@
 
 package djinni
 
-import java.io.{IOException, FileNotFoundException, FileInputStream, InputStreamReader, File, BufferedWriter, FileWriter}
+import java.io.{IOException, FileNotFoundException, File, BufferedWriter, FileWriter}
 
 import djinni.generatorTools._
 
